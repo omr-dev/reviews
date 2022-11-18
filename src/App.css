@@ -101,6 +101,9 @@ top: 5px;
     gap: 20px;
     margin-bottom: 0.8rem;
 }
+.App .container .review-box .nav-arrows .arrow{
+    cursor: pointer;
+}
 .App .container .review-box .surprise-btn button{
 padding: 0.4rem 0.8rem;
     border-radius: 5px;
