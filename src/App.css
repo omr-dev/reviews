@@ -1,0 +1,109 @@
+.App{
+
+
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f1f5f8;
+}
+.App .container{
+width: 80vw;
+    max-width: 620px;
+}
+.App .container .title{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    margin-bottom: 6.4rem;
+
+}
+.App .container .title h1{
+    margin-bottom: 1.2rem;
+    font-size: 4rem;
+    color:var(--clr-main-title)
+}
+.App .container .title .underline{
+    width: 100px;
+    height: 5px;
+    background-color: var(--clr-blue);
+}
+.App .container .review-box{
+    box-shadow: 0 5px 15px rgba(0,0,0,.2);
+    padding: 2.4rem 3.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+
+}
+.App .container .review-box .person-image{
+    position: relative;
+    margin-bottom: 2.4rem;
+}
+.App .container .review-box .person-image img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+.App .container .review-box .person-image .blue-frame{
+    position: absolute;
+    top: -5px;
+    right: -7px;
+    z-index: -1;
+    width: 150px;
+    height: 150px;
+    background-color: var(--clr-blue);
+    border-radius: 50%;
+}
+.App .container .review-box .person-image .icon-background{
+    width: 4rem;
+    height: 4rem;
+    background-color: var(--clr-blue);
+    border-radius: 50%;
+    position: absolute;
+top: 5px;
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.App .container .review-box .person-name {
+
+        text-transform: capitalize;
+    letter-spacing: .16rem;
+    font-size: 1.4rem;
+    margin-bottom: 0.4rem;
+}
+.App .container .review-box .person-title{
+    text-transform: uppercase;
+    color: var(--clr-blue);
+    font-size: 1.4rem;
+    margin-bottom: 0.8rem;
+}
+.App .container .review-box .person-comment{
+    line-height: 1.5;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 1.2rem;
+}
+.App .container .review-box .nav-arrows{
+    color: var(--clr-blue);
+    font-size: 2rem;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 0.8rem;
+}
+.App .container .review-box .surprise-btn button{
+padding: 0.4rem 0.8rem;
+    border-radius: 5px;
+    border:none;
+    color: var(--clr-blue);
+}
